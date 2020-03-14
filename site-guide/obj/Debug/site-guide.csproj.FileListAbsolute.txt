@@ -1,0 +1,7 @@
+C:\Users\Castle\source\repos\site-guide\site-guide\bin\Debug\site-guide.exe.config
+C:\Users\Castle\source\repos\site-guide\site-guide\bin\Debug\site-guide.exe
+C:\Users\Castle\source\repos\site-guide\site-guide\bin\Debug\site-guide.pdb
+C:\Users\Castle\source\repos\site-guide\site-guide\obj\Debug\site-guide.csprojAssemblyReference.cache
+C:\Users\Castle\source\repos\site-guide\site-guide\obj\Debug\site-guide.csproj.CoreCompileInputs.cache
+C:\Users\Castle\source\repos\site-guide\site-guide\obj\Debug\site-guide.exe
+C:\Users\Castle\source\repos\site-guide\site-guide\obj\Debug\site-guide.pdb
