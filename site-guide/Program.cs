@@ -74,7 +74,7 @@ namespace site_guide
             while (true)
             {
                 LogHelper.WriteLog("同步更新客户端IP信息：" + updIpUrl);
-                var result = HttpHelper.SendRequest(updIpUrl, "post", string.Format("desc={0}&lanIp={1}", SELF_DESC_INFO, ip));
+                var result = HttpHelper.SendRequest(updIpUrl, "post", string.Format("desc={0}&lanIp={1}", Uri.EscapeDataString(SELF_DESC_INFO), ip));
                 LogHelper.WriteLog("返回结果：" + result);
                 var apiResponse = JSONParser.FromJson<ApiResponse<object>>(result);
                 if (apiResponse != null)
