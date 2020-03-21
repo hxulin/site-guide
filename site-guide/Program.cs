@@ -96,6 +96,15 @@ namespace site_guide
 
         static void Main(string[] args)
         {
+            #region 判断当前程序是否启动，如果已启动则退出，保证只有一个实例启动
+            Mutex mutexApp = new Mutex(false, Assembly.GetExecutingAssembly().FullName, out bool appIsRunning);
+            if (!appIsRunning)
+            {
+                LogHelper.WriteLog("程序已经运行，请不要重复打开");
+                return;
+            }
+            #endregion
+
             LogHelper.WriteLog("程序启动");
 
             Random random = new Random();
